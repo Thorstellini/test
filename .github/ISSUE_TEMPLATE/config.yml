@@ -3,6 +3,3 @@ contact_links: # Optionale Kontaktmöglichkeiten
   - name: Support
     url: https://example.com/support
     about: "Reach out for help with bugs or questions"
-
-issue_templates:
-  - bug.yml
