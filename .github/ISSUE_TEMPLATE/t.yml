@@ -8,45 +8,48 @@ body:
     attributes:
       label: Feature Name
       placeholder: Enter a short name
+      value: "" # required key
 
   - type: textarea
     attributes:
       label: Describe your Feature
       placeholder: Explain in detail
+      value: "" # required key
 
   - type: dropdown
     attributes:
       label: Choose priority
       options:
-        - High
-        - Medium
-        - Low
+        High: High
+        Medium: Medium
+        Low: Low
+      value: High # default selected option
 
   - type: checkboxes
     attributes:
       label: Supported Platforms
       options:
-        - Windows
-        - Mac
-        - Linux
+        Windows: Windows
+        Mac: Mac
+        Linux: Linux
+      value: [] # empty default
 
-  - type: radio
+  - type: dropdown # radio replaced with dropdown
     attributes:
       label: Type of change
       options:
-        - UI
-        - Backend
-        - Documentation
+        UI: UI
+        Backend: Backend
+        Documentation: Documentation
+      value: UI
 
-  - type: boolean
+  - type: checkboxes # boolean replaced with single checkbox
     attributes:
       label: Requires database changes?
+      options:
+        Yes: Yes
+      value: [] # empty default
 
   - type: markdown
     attributes:
       value: "Please fill out all fields carefully."
-
-  - type: label
-    attributes:
-      name: enhancement
-      description: "This is an enhancement request"
