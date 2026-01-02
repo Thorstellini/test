@@ -1,10 +1,52 @@
 name: New Feature
-description: ...
+description: Submit a new feature request
 title: Feature Name
 labels: [enhancement]
 
 body:
+  - type: input
+    attributes:
+      label: Feature Name
+      placeholder: Enter a short name
+
   - type: textarea
     attributes:
       label: Describe your Feature
-      placeholder: ...
+      placeholder: Explain in detail
+
+  - type: dropdown
+    attributes:
+      label: Choose priority
+      options:
+        - High
+        - Medium
+        - Low
+
+  - type: checkboxes
+    attributes:
+      label: Supported Platforms
+      options:
+        - Windows
+        - Mac
+        - Linux
+
+  - type: radio
+    attributes:
+      label: Type of change
+      options:
+        - UI
+        - Backend
+        - Documentation
+
+  - type: boolean
+    attributes:
+      label: Requires database changes?
+
+  - type: markdown
+    attributes:
+      value: "Please fill out all fields carefully."
+
+  - type: label
+    attributes:
+      name: enhancement
+      description: "This is an enhancement request"
