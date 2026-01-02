@@ -1,55 +1,10 @@
 name: New Feature
-description: Submit a new feature request
+description: ...
 title: Feature Name
 labels: [enhancement]
 
 body:
-  - type: input
-    attributes:
-      label: Feature Name
-      placeholder: Enter a short name
-      value: "" # required key
-
   - type: textarea
     attributes:
       label: Describe your Feature
-      placeholder: Explain in detail
-      value: "" # required key
-
-  - type: dropdown
-    attributes:
-      label: Choose priority
-      options:
-        High: High
-        Medium: Medium
-        Low: Low
-      value: High # default selected option
-
-  - type: checkboxes
-    attributes:
-      label: Supported Platforms
-      options:
-        Windows: Windows
-        Mac: Mac
-        Linux: Linux
-      value: [] # empty default
-
-  - type: dropdown # radio replaced with dropdown
-    attributes:
-      label: Type of change
-      options:
-        UI: UI
-        Backend: Backend
-        Documentation: Documentation
-      value: UI
-
-  - type: checkboxes # boolean replaced with single checkbox
-    attributes:
-      label: Requires database changes?
-      options:
-        Yes: Yes
-      value: [] # empty default
-
-  - type: markdown
-    attributes:
-      value: "Please fill out all fields carefully."
+      placeholder: ...
