@@ -1,0 +1,10 @@
+name: New Feature
+description: ...
+title: Feature Name
+labels: [enhancement]
+
+body:
+  - type: textarea
+    attributes:
+      label: Describe your Feature
+      placeholder: ...
