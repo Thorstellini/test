@@ -7,4 +7,8 @@ body:
   - type: textarea
     attributes:
       label: Describe your Feature
-      placeholder: ...
+      placeholder: A short and clear description of your feature idea
+
+  - type: checkbox
+    attributes:
+      label: ...
