@@ -1,5 +1,0 @@
-blank_issues_enabled: false # Ob Benutzer leere Issues erstellen dürfen
-contact_links: # Optionale Kontaktmöglichkeiten
-  - name: Support
-    url: https://example.com/support
-    about: "Reach out for help with bugs or questions"
